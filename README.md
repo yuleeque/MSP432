@@ -3,7 +3,7 @@
 ## Hardware:
 - MSP432P401R      ( Mouser No: 595-MSP-EXP432P401R  )
 - HD44780 16x2 LCD ( Mouser No: 992-LCD-16X2B        )
-- 2x Potentiometer (1 is optional) ( Mouser No: 652-PTA20432015CPB10 )
+- 2x Potentiometer ( Mouser No: 652-PTA20432015CPB10 )
 
 
 ## Instructions:
@@ -27,10 +27,25 @@
 
 3. **Copy main.c file**
 
-
 4. **Connect the hardware:**
 
 ![Wiring scheme](/images/WIRING.BMP)
+
+PIN Description:
+ Pin number | Pin name  | Pin description
+--- | --- | ---
+
+1 | GND/VSS | ground pin for LCD
+2 | VDD/VCC | supply voltage pin for LCD
+3 | V0/VEE | contrast adjust
+4 | RS | Register Select (0;1)
+5 | RW | Read/Write (0;1)
+6 | E | enable
+7-14 | Data Bits | send commands or data to the LCD
+15 | A | supply voltage pin for backlight
+16 | K | ground ping for backlight
+
+![Slide potentiometer wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
 
 5. **Build successfully (Project->Build Project) and load (Run->Load->project_name)**
