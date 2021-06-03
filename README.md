@@ -34,7 +34,6 @@
 PIN Description:
  Pin number | Pin name  | Pin description
 --- | --- | ---
-
 1 | GND/VSS | ground pin for LCD
 2 | VDD/VCC | supply voltage pin for LCD
 3 | V0/VEE | contrast adjust
