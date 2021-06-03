@@ -33,6 +33,22 @@
 
 ![Wiring scheme](/images/WIRING.BMP)
 
+Temporary but important note:
+ Using exactly that potentiometer listen in the Hardware section on the top of this file, I've found this way doesn't produce any smoke and smell of burning elctronic components. Telling this since I'm not sure if this convention works in 100% cases or some potentiometers DO have different PINOUT, so check the documentation for your particular potentiometers to find out the right connection.
+
+![Slide potentiometer wiring](/images/SLIDE_POTENTIOMETER.BMP)
+
+
+5. **Build (Project->Build Project) and load (Run->Load->project_name)**
+
+
+
+___
+
+## INFO:
+
+In case the link is broken or you cannot find it for some other reason, the whole master repo zip is included "as is" in "/lib".
+
 LCD PIN Description:
  Pin number | Pin name  | Pin description
 --- | --- | ---
@@ -45,14 +61,3 @@ LCD PIN Description:
 7-14 | Data Bits | send commands or data to the LCD
 15 | A | supply voltage pin for backlight
 16 | K | ground ping for backlight
-
-![Slide potentiometer wiring](/images/SLIDE_POTENTIOMETER.BMP)
-
-
-5. **Build (Project->Build Project) and load (Run->Load->project_name)**
-
-
-
-___
-
-Info: in case the link is broken or you cannot find it for some other reason, the whole master repo zip is included "as is" in "/lib".
