@@ -2,7 +2,7 @@
  *  Simple and minimalistic program for MSP432P401R using LCD 16x2 in a 4 bit mode.
  *  Intended to serve as a start point for learning
  *
- *  Author: Yulian Khlevnoy
+ *  Author: Yulian Khlevnoy (@yuleeque)
  *  Date: 03-Jun-2021
  *
  ********************************************************************************/
