@@ -26,12 +26,13 @@ Hardware:
 		- Line 33: #define     _LCD_4BIT_PORT          4               // port used to data
 		- Line 34: #define     _LCD_DATA_BASE          4               // first low pin of 4 bit interface
 
+3. **Code: copy main.c**
 
-3. **Connect the hardware:**
+
+4. **Connect the hardware:**
 
 ![Wiring scheme](/images/WIRING.BMP)
 
-4. **Code: just copy main.c**
 
 5. **Build successfully (Project->Build Project) and load (Run->Load->project_name)**
 
