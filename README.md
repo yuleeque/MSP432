@@ -8,8 +8,8 @@
 
 ## Instructions:
 1. **Setup/Verify**
-	1. Connect MSP432 via USB
-	2. Create "New CCS Project" in Code Composer Studio
+	-. Connect MSP432 via USB
+	-. Create "New CCS Project" in Code Composer Studio
 		- select Target: MSP432 Family  |  MSP432P401R
 		- click "Verify" to make sure the Lanuchpad works
 		- name the project
