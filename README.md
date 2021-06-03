@@ -30,7 +30,7 @@
 		#include <msp432.h>
 		#include <stdint.h>
 		#include "lcd16x2_msp43x.h"
-			
+
 		void main(void)
 		{
 		    P4->DIR = 0xFF;     // Set P4 pins as output
@@ -62,7 +62,8 @@ Temporary but important note:
 5. **Build (Project->Build Project) and load (Run->Load->Select Program To Load)**
 
 6. **(Optional) Open repo's archived CCS project:**
-	- Project->Import CCS Project (zip file in "/archive")
+	- Unarchive the project
+	- Project->Import CCS Project->Select search-directory
 	- Project->Clean
 	- Project->Build
 	- Run->Load->Select Program To Load
