@@ -34,7 +34,8 @@
 ![Wiring scheme](/images/WIRING.BMP)
 
 Temporary but important note:
- Using exactly that potentiometer listen in the Hardware section on the top of this file, I've found this way doesn't produce any smoke and smell of burning elctronic components. Telling this since I'm not sure if this convention works in 100% cases or some potentiometers DO have different PINOUT, so check the documentation for your particular potentiometers to find out the right connection.
+ Using exactly that potentiometer listen in the Hardware section on top of this file, I've found this way doesn't produce any smoke and smell of burning elctronic components. Telling this since I'm not sure if this convention works in 100% cases or some potentiometers DO have different PINOUT, so check the documentation for your particular potentiometers to find out the right connection.
+ Since for (TODO make pic of Arduino KIT's blue one and how it connects)
 
 ![Slide potentiometer wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
@@ -47,7 +48,7 @@ ___
 
 ## INFO:
 
-In case the link is broken or you cannot find it for some other reason, the whole master repo zip is included "as is" in "/lib".
+In case the link is broken or you cannot find it for some other reason, the whole master repo "LCD16x2_MSP43x-master.zip" included "as is".
 
 LCD PIN Description:
  Pin number | Pin name  | Pin description
