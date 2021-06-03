@@ -15,8 +15,8 @@
 		- name the project
 		- leave the rest of settings untouched
 2. **Add LCD lib:**
-	1. Add both .c and .h files of the [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) via "Project Explorer" window into the project's main directory
-	2. Edit the .h lib file so it fits MSP432 PIN layout instead of MSP430
+	- Add both .c and .h files of the [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) via "Project Explorer" window into the project's main directory
+	- Edit the .h lib file so it fits MSP432 PIN layout instead of MSP430
 		- Line 22: #include <msp432.h>
 		- Line 28: #define     _EN_PORT        4                   // default EN port - P4
 		- Line 29: #define     _EN_PIN         2                   // default EN pin  - P4.2
