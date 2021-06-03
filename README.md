@@ -94,6 +94,8 @@ BRIGHTNESS_DEMO
 
 ___
 
+<details>
+
 ## INFO/HELP:
 
 In case the link to a lib is broken or you cannot find it for some other reason, the whole master repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
@@ -110,3 +112,5 @@ LCD PIN Description:
 7-14 | Data Bits | send commands or data to the LCD
 15 | A | supply voltage pin for backlight
 16 | K | ground ping for backlight
+
+</details>
