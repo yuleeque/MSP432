@@ -15,7 +15,7 @@ Instructions:
 		- click "Verify" to mak sure the Lanuchpad works
 		- name the project
 		- leave the rest of settings untouched
-	3. Add both .c and .h files of the [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) via "Project Explorer" window into the project's main directory. *In case the link is broken and you cannot find it for some reason, the whole master repo zip is included "as is" in "/lib"*
+	3. Add both .c and .h files of the [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) via "Project Explorer" window into the project's main directory. *(NOTE: In case the link is broken and you cannot find it for some reason, the whole master repo zip is included "as is" in "/lib")*
 
 2. Connect the hardware:
 ![Wiring scheme](/images/WIRING.BMP)
