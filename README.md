@@ -29,8 +29,8 @@
 
 4. **Connect the hardware:**
 	
-## !!! WARNING !!! Disconnect the Launchpad from PC first !!!
-	
+### !!! WARNING !!! Disconnect the Launchpad from PC first !!!
+
 ![Wiring scheme](/images/WIRING.BMP)
 
 LCD PIN Description:
