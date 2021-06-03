@@ -83,17 +83,18 @@ ___
 
 ## DEMONSTRATION:
 
+CONTRAST_DEMO
 
 ![CONTRAST_DEMO](/images/CONTRAST_DEMO.gif)
 
-CONTRAST_DEMO
-
-
-![BRIGHTNESS_DEMO](/images/BRIGHTNESS_DEMO.gif)
 
 BRIGHTNESS_DEMO
 
-## INFO:
+![BRIGHTNESS_DEMO](/images/BRIGHTNESS_DEMO.gif)
+
+___
+
+## INFO/HELP:
 
 In case the link to a lib is broken or you cannot find it for some other reason, the whole master repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
 
