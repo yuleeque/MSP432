@@ -5,7 +5,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 ## Hardware:
 - MSP432P401R      ( Mouser No: 595-MSP-EXP432P401R  )
 - HD44780 16x2 LCD ( Mouser No: 992-LCD-16X2B        )
-- 2x Potentiometer ( Mouser No: 652-PTA20432015CPB10 )
+- 2x 10K Potentiometers
 
 
 ## Instructions:
