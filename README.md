@@ -61,11 +61,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 ![Wiring scheme](/images/WIRING.BMP)
 
-Temporary but important note:
- Using exactly that potentiometer listen in the Hardware section on top of this file, I've found this way doesn't produce any smoke and smell of burning elctronic components. Telling this since I'm not sure if this convention works in 100% cases or some potentiometers DO have different PINOUT, so check the documentation for your particular potentiometers to find out the right connection.
- Since for (TODO make pic of Arduino KIT's blue one and how it connects)
+Check the documentation for your particular potentiometers to find out the right connection depending on its type.
 
-![Slide potentiometer wiring](/images/SLIDE_POTENTIOMETER.BMP)
+![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
 
 5. **Build (Project->Build Project) and load (Run->Load->Select Program To Load)**
@@ -96,7 +94,7 @@ ___
 <details>
 	<summary>INFO/HELP</summary>
 
-In case the link to a lib is broken or you cannot find it for some other reason, the whole master repo "LCD16x2_MSP43x-master.zip" 	included "AS IS" in "/archive".
+In case the lib link is broken or you cannot find it for some other reason, the whole repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
 
 LCD PIN Description:
  Pin number | Pin name  | Pin description
