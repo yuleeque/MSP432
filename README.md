@@ -40,15 +40,20 @@ Temporary but important note:
 ![Slide potentiometer wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
 
-5. **Build (Project->Build Project) and load (Run->Load->project_name)**
+5. **Build (Project->Build Project) and load (Run->Load->Select Program To Load)**
 
+6. **(Optional) Open repo's archived CCS project:**
+	- Project->Import CCS Project (zip file in "/archive")
+	- Project->Clean
+	- Project->Build
+	- Run->Load->Select Program To Load
 
 
 ___
 
 ## INFO:
 
-In case the link is broken or you cannot find it for some other reason, the whole master repo "LCD16x2_MSP43x-master.zip" included "as is".
+In case the link to a lib is broken or you cannot find it for some other reason, the whole master repo "LCD16x2_MSP43x-master.zip" included "as is" in "/archive".
 
 LCD PIN Description:
  Pin number | Pin name  | Pin description
