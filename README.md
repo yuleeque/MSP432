@@ -43,6 +43,14 @@
 
 		    lcd16x2_SetPosition(1,0);
 		    lcd16x2_PrintString("16x2 LCD");
+
+
+		    /* The underscore at the end of printed text isn't any kind of error,
+		       it's just a cursor and it's possible to manipulate its state
+		       in lcd16x2_msp43x.c or directly from main,c. */
+		       
+		    //lcd16x2_Cmd(LCD_CMD_DISPLAY_ON_CURSOR_OFF);     // display ON, cursor OFF/ON/BLINK
+		                                                    // lines 101-103 in lcd16x2_msp43x.h
 		}
 
 
