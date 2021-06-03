@@ -1,20 +1,12 @@
 # MSP432P401R
 
-Hardware:
-
+## Hardware:
 - MSP432P401R      ( Mouser No: 595-MSP-EXP432P401R  )
 - HD44780 16x2 LCD ( Mouser No: 992-LCD-16X2B        )
 - 2x Potentiometer (1 is optional) ( Mouser No: 652-PTA20432015CPB10 )
 
 
-### Instructions:
-1. Setup/Verify
-2. Add LCD lib
-3. main.c
-4. Witing
-5. Build and load
-
-
+## Instructions:
 1. **Setup/Verify**
 	1. Connect MSP432 via USB
 	2. Create "New CCS Project" in Code Composer Studio
@@ -45,6 +37,6 @@ Hardware:
 
 
 
-
+(___)
 
 Info: in case the link is broken or you cannot find it for some other reason, the whole master repo zip is included "as is" in "/lib".
