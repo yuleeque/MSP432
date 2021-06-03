@@ -7,7 +7,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 - HD44780 16x2 LCD ( Mouser No: 992-LCD-16X2B        )
 - 2x 10K Potentiometers
 
-
 ## Instructions:
 1. **Setup/Verify**
 	-. Connect MSP432 via USB
@@ -112,5 +111,4 @@ LCD PIN Description:
 15 | A | supply voltage pin for backlight
 16 | K | ground ping for backlight
 
-d
 </details>
