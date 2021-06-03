@@ -8,6 +8,13 @@ Hardware:
 
 
 ### Instructions:
+1. Setup/Verify
+2. Add LCD lib
+3. main.c
+4. Witing
+5. Build and load
+
+
 1. **Setup/Verify**
 	1. Connect MSP432 via USB
 	2. Create "New CCS Project" in Code Composer Studio
@@ -15,7 +22,7 @@ Hardware:
 		- click "Verify" to make sure the Lanuchpad works
 		- name the project
 		- leave the rest of settings untouched
-2. **Add lib:**
+2. **Add LCD lib:**
 	1. Add both .c and .h files of the [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) via "Project Explorer" window into the project's main directory
 	2. Edit the .h lib file so it fits MSP432 PIN layout instead of MSP430
 		- Line 22: #include <msp432.h>
@@ -26,7 +33,7 @@ Hardware:
 		- Line 33: #define     _LCD_4BIT_PORT          4               // port used to data
 		- Line 34: #define     _LCD_DATA_BASE          4               // first low pin of 4 bit interface
 
-3. **Code: copy main.c**
+3. **Copy main.c file**
 
 
 4. **Connect the hardware:**
