@@ -28,10 +28,12 @@
 3. **Copy main.c file**
 
 4. **Connect the hardware:**
-
+	
+## !!! WARNING !!! Disconnect the Launchpad from PC first !!!
+	
 ![Wiring scheme](/images/WIRING.BMP)
 
-PIN Description:
+LCD PIN Description:
  Pin number | Pin name  | Pin description
 --- | --- | ---
 1 | GND/VSS | ground pin for LCD
@@ -47,7 +49,7 @@ PIN Description:
 ![Slide potentiometer wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
 
-5. **Build successfully (Project->Build Project) and load (Run->Load->project_name)**
+5. **Build (Project->Build Project) and load (Run->Load->project_name)**
 
 
 
