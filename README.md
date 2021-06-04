@@ -59,6 +59,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 	
 ### !!! WARNING: Disconnect the Launchpad from PC first !!!
 
+- In case there're slightly different pin names, see "INFO/HELP" section in the end.
+
 ![Wiring scheme](/images/WIRING.BMP)
 
 - Check the documentation for your particular potentiometers to find out the right connection depending on its type.
