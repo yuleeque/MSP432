@@ -61,9 +61,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 ![Wiring scheme](/images/WIRING.BMP)
 
-Check the documentation for your particular potentiometers to find out the right connection depending on its type.
+	- Check the documentation for your particular potentiometers to find out the right connection depending on its type.
 
-For a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
+	- For a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
 
 ![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
@@ -98,9 +98,9 @@ ___
 <details>
 	<summary>INFO/HELP</summary>
 
-In case the lib link is broken or you cannot find it for some other reason, the whole repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
+	- In case the lib link is broken or you cannot find it for some other reason, the whole repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
 
-LCD PIN Description:
+	- LCD PIN Description:
  Pin number | Pin name  | Pin description
 --- | --- | ---
 1 | GND/VSS | ground pin for LCD
