@@ -59,7 +59,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 	
 ### !!! WARNING: Disconnect the Launchpad from PC first !!!
 
-- In case there're slightly different pin names, see "INFO/HELP" section in the end.
+- In case there're slightly different pin names on LCD module, see "INFO/HELP" section in the end.
 
 ![Wiring scheme](/images/WIRING.BMP)
 
