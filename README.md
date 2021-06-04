@@ -9,8 +9,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 ## Instructions:
 1. **Setup/Verify**
-	-. Connect MSP432 via USB
-	-. Create "New CCS Project" in Code Composer Studio
+	- Connect MSP432 via USB
+	- Create "New CCS Project" in Code Composer Studio
 		- select Target: MSP432 Family  |  MSP432P401R
 		- click "Verify" to make sure the Lanuchpad works
 		- name the project
