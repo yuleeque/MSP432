@@ -63,7 +63,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 ![Wiring scheme](/images/WIRING.BMP)
 
-- Check the documentation for your particular potentiometers to find out the right connection depending on its type.
+- Check the documentation for your particular potentiometers to find the right connection depending on its type.
 
 - For a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
 
@@ -72,9 +72,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 ![Single turn POT wiring](/images/SINGLE_TURN_POT.BMP)
 
 
-5. **Build (Project->Build Project) and load (Run->Load->Select Program To Load)**
+5. **Build (Project->Build Project)
 
-6. **(Optional) Open repo's archived CCS project:**
+6. **Connect Launchpad to PC and load (Run->Load->Select Program To Load)**
+
+7. **(Optional) Open repo's archived CCS project:**
 	- Unarchive the project
 	- Project->Import CCS Project->Select search-directory
 	- Project->Clean
