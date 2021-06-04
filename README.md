@@ -115,7 +115,7 @@ Pin number | Pin name  | Pin description
 5 | RW | Read/Write (0;1)
 6 | E | enable
 7-14 | Data Bits | send commands or data to the LCD
-15 | A | supply voltage pin for backlight
-16 | K | ground ping for backlight
+15 | A/LED+ | supply voltage pin for backlight
+16 | K/LED- | ground ping for backlight
 
 </details>
