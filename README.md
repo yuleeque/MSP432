@@ -72,7 +72,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 ![Single turn POT wiring](/images/SINGLE_TURN_POT.BMP)
 
 
-5. **Build (Project->Build Project)
+5. **Build (Project->Build Project)**
 
 6. **Connect Launchpad to PC and load (Run->Load->Select Program To Load)**
 
