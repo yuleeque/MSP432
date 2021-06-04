@@ -5,7 +5,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 ## Hardware:
 - MSP432P401R      ( Mouser No: 595-MSP-EXP432P401R  )
 - HD44780 16x2 LCD ( Mouser No: 992-LCD-16X2B        )
-- 2x 10kOhms Potentiometers
+- 2x 10kOhms Potentiometers, breadboard, wires.
 
 ## Instructions:
 1. **Setup/Verify**
@@ -57,13 +57,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 4. **Connect the hardware:**
 	
-### !!! WARNING !!! Disconnect the Launchpad from PC first !!!
+### !!! WARNING: Disconnect the Launchpad from PC first !!!
 
 ![Wiring scheme](/images/WIRING.BMP)
 
 Check the documentation for your particular potentiometers to find out the right connection depending on its type.
 
-For a linear slide POT i have potentiometer ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
+For a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
 
 ![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
