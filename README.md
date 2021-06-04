@@ -98,9 +98,9 @@ ___
 <details>
 	<summary>INFO/HELP</summary>
 
-	- In case the lib link is broken or you cannot find it for some other reason, the whole repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
+- In case the lib link is broken or you cannot find it for some other reason, the whole repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
 
-	- LCD PIN Description:
+- LCD PIN Description:
  Pin number | Pin name  | Pin description
 --- | --- | ---
 1 | GND/VSS | ground pin for LCD
