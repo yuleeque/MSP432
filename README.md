@@ -2,12 +2,12 @@
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
-## Hardware:
+## Hardware
 - MSP432P401R      ( Mouser No: 595-MSP-EXP432P401R  )
 - HD44780 16x2 LCD ( Mouser No: 992-LCD-16X2B        )
 - 2x 10kOhms Potentiometers, breadboard, wires.
 
-## Instructions:
+## Instructions
 1. **Setup/Verify**
 	- Connect MSP432 via USB
 	- Create "New CCS Project" in Code Composer Studio
@@ -15,7 +15,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 		- click "Verify" to make sure the Lanuchpad works
 		- name the project
 		- leave the rest of settings untouched
-2. **Add LCD lib:**
+2. **Add LCD lib**
 	- Add both .c and .h files of the [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) via "Project Explorer" window into the project's main directory
 	- Edit the .h lib file to fit MSP432 PIN Layout instead of MSP430
 		- Line 22: #include <msp432.h>
@@ -55,9 +55,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 		}
 
 
-### !!! WARNING: Disconnect the Launchpad from PC before step #4 !!!
+###WARNING: Disconnect the Launchpad from PC before step #4
 
-4. **Get stuff connected:**
+4. **Get stuff connected**
 
 ![Wiring scheme](/images/WIRING.BMP)
 
@@ -76,7 +76,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 6. **Connect Launchpad to PC and load (Run->Load->Select Program To Load)**
 
-7. **(Optional) Open repo's archived CCS project:**
+7. **(Optional) Open repo's archived CCS project**
 	- Unarchive the project
 	- Project->Import CCS Project->Select search-directory
 	- Project->Clean
