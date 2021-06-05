@@ -55,9 +55,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 		}
 
 
-4. **Connect the hardware:**
-	
-### !!! WARNING: Disconnect the Launchpad from PC first !!!
+### !!! WARNING: Disconnect the Launchpad from PC before step #4 !!!
+
+4. **Get stuff connected:**
 
 - In case there're slightly different pin names on LCD module, see "INFO/HELP" section in the end.
 
