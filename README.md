@@ -59,11 +59,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 4. **Get stuff connected:**
 
+![Wiring scheme](/images/WIRING.BMP)
+
 - In case there're slightly different pin names on LCD module, see "INFO/HELP" section in the end.
 
 - R1 (200-300 Ohms) is intended to prevent the backlight from damage by reducing highest amount of current.
-
-![Wiring scheme](/images/WIRING.BMP)
 
 - Check the documentation for your particular potentiometers to find the right connection depending on its type.
 
