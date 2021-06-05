@@ -61,7 +61,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 - In case there're slightly different pin names on LCD module, see "INFO/HELP" section in the end.
 
-- R1 (around 200-300 Ohms) is placed just in case not to damage the backlight, cutting a little from the highest current.
+- R1 (200-300 Ohms) is intended to prevent the backlight from damage by reducing highest amount of current.
 
 ![Wiring scheme](/images/WIRING.BMP)
 
