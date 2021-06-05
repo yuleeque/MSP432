@@ -65,9 +65,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 - R1 (200-300 Ohms) is intended to prevent the backlight from damage by reducing highest amount of current.
 
-- Check the documentation for your particular potentiometers to find the right connection depending on its type.
-
-- For a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
+- Check the documentation for your particular potentiometers to find the right connection depending on its type: for a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
 
 ![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
