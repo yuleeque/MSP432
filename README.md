@@ -81,7 +81,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 	- Project->Import CCS Project->Select search-directory
 	- Project->Clean
 	- Project->Build
-	- Run->Load->Select Program To Load
+	- Run->Load->Select Program To Load->Ok
+	- Run->Load->program_name
 
 
 ___
