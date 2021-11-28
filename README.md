@@ -36,15 +36,13 @@ If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to spe
 
 - Get stuff connected
 
-- hj
-
 ![Wiring scheme](/images/WIRING.BMP)
 
-- In case there're slightly different pin names on LCD module, see "INFO/HELP" section in the end.
+In case there're slightly different pin names on LCD module, see "INFO/HELP" section in the end.
 
-- R1 (200-300 Ohms) is intended to prevent the backlight from damage by reducing highest amount of current.
+R1 (200-300 Ohms) is intended to prevent the backlight from damage by reducing highest amount of current.
 
-- Check the documentation for your particular potentiometers to find the right connection depending on its type: for a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
+Check the documentation for your particular potentiometers to find the right connection depending on its type: for a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
 
 ![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
