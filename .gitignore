@@ -3,9 +3,6 @@
 /Listings
 /RTE
 
-# user-dependent
-*.yulian
-
 # Prerequisites
 *.d
 
@@ -58,3 +55,4 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.yulian
