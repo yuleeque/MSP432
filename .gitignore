@@ -1,3 +1,8 @@
+# Directories
+/Objects
+/Listings
+/RTE
+
 # Prerequisites
 *.d
 
