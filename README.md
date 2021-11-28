@@ -1,4 +1,4 @@
-# MSP432P401R
+# TI_MSP432
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
@@ -7,17 +7,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 - HD44780 16x2 LCD ( Mouser No: 992-LCD-16X2B        )
 - 2x 10kOhms Potentiometers, breadboard, wires.
 
-## Instructions
-1. **Setup/Verify**
-	- Connect MSP432 via USB
-	- Create "New CCS Project" in Code Composer Studio
-		- select Target: MSP432 Family  |  MSP432P401R
-		- click "Verify" to make sure the Lanuchpad works
-		- name the project
-		- leave the rest of settings untouched
-2. **Add LCD lib**
-	- Add both .c and .h files of the [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) via "Project Explorer" window into the project's main directory
-	- Edit the .h lib file to fit MSP432 PIN Layout instead of MSP430
+## Software
+- Keil uVision5 (5.36)
+- [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) (zip copy is on /docs)
+
+
+## Setup
+- New project.
+	|- Select Device for Target 'Target 1': MSP432P401R
+	|- Manage Run-Time Environment: CMSIS -> CORE (v5.5.0)
+	|							    Device -> Startup (v3.2.2)
+	|-
+
+
+
+ 		- Edit the .h lib file to fit MSP432 PIN Layout instead of MSP430
 		- Line 22: #include <msp432.h>
 		- Line 28: #define     _EN_PORT        4                   // default EN port - P4
 		- Line 29: #define     _EN_PIN         2                   // default EN pin  - P4.2
