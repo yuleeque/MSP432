@@ -23,14 +23,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 note: If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to specific board:
 
- 		- Edit the .h lib file to fit MSP432 PIN Layout instead of MSP430
-		- Line 22: #include <msp432.h>
-		- Line 28: #define     _EN_PORT        4                   // default EN port - P4
-		- Line 29: #define     _EN_PIN         2                   // default EN pin  - P4.2
-		- Line 30: #define     _RS_PORT        4                   // default RS port - P4
-		- Line 31: #define     _RS_PIN         0                   // default RS pin  - P4.0
-		- Line 33: #define     _LCD_4BIT_PORT          4               // port used to data
-		- Line 34: #define     _LCD_DATA_BASE          4               // first low pin of 4 bit interface
+	/***************************************************************************************
+	*          LCD PINS DEFINITION - will define PORT and PINS used by LCD
+	***************************************************************************************/
+	#define     _EN_PORT        4                   // default EN port - P1
+	#define     _EN_PIN         2                   // default EN pin  - P1.6
+	#define     _RS_PORT        4                   // default RS port - P1
+	#define     _RS_PIN         0                   // default RS pin  - P1.7
+
+	#define     _LCD_4BIT_PORT          4               // port used to data
+	#define     _LCD_DATA_BASE          4               // first low pin of 4 bit interface
+	#define     _LCD_4BIT_HIGH          0x0F            // 4 bits in high mode
+	
+
 
 
 3. **main.c**
