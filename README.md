@@ -13,11 +13,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 
 ## Setup
-- New project.
-	|- Select Device for Target 'Target 1': MSP432P401R
-	|- Manage Run-Time Environment: CMSIS -> CORE (v5.5.0)
-	|							    Device -> Startup (v3.2.2)
-	|-
+1. New project.
+- Select Device for Target 'Target 1': MSP432P401R
+- Manage Run-Time Environment: CMSIS -> CORE (v5.5.0)
+                               Device -> Startup (v3.2.2)
+- ыфв
 
 
 
