@@ -3,6 +3,9 @@
 /Listings
 /RTE
 
+# user-dependent
+*.yulian
+
 # Prerequisites
 *.d
 
