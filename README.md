@@ -8,7 +8,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 - 2x 10kOhms Potentiometers, breadboard, wires.
 
 ## Software
-- Keil uVision5 (5.36)
+- ARM Keil uVision5 (5.36)
 - [LCD16x02_MSP43x library](https://github.com/agaelema/LCD16x2_MSP43x) by [agaelema](https://github.com/agaelema) (zip copy is on /docs)
 
 
@@ -38,11 +38,9 @@ If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to spe
 
 ![Wiring scheme](/images/WIRING.BMP)
 
-In case there're slightly different pin names on LCD module, see "INFO/HELP" section in the end.
+In case of different LCD module pin names, see "INFO/HELP" at the end.
 
-R1 (200-300 Ohms) is intended to prevent the backlight from damage by reducing highest amount of current.
-
-Check the documentation for your particular potentiometers to find the right connection depending on its type: for a linear slide POT i have ( Mouser No: 652-PTA20432015CPB10 ) it seems a bit dfferent and counterintuitive in some way than for a single turn POT which you can see on demo gifs:
+In case of different potentiometer type:
 
 ![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
