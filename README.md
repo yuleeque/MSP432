@@ -21,7 +21,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 - Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Flash Download -> add "Reset and Run"
 
 
-If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to specific board:
+note: If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to specific board:
+
  		- Edit the .h lib file to fit MSP432 PIN Layout instead of MSP430
 		- Line 22: #include <msp432.h>
 		- Line 28: #define     _EN_PORT        4                   // default EN port - P4
