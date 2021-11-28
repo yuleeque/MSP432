@@ -13,12 +13,12 @@
     lcd16x2_PrintString("MSP432P401R");   // Print text
 
     lcd16x2_SetPosition( 1, 0 );
-    lcd16x2_PrintString("ver2.0");
+    lcd16x2_PrintString("16x2 LCD");
 	 
 	  //lcd16x2_Cmd( LCD_CMD_CLEAR_LCD );
 	  //lcd16x2_Cmd( LCD_CMD_DISPLAY_OFF_CURSOR_OFF );
-	  //lcd16x2_Cmd( LCD_CMD_DISPLAY_ON_CURSOR_OFF );
-		lcd16x2_Cmd( LCD_CMD_DISPLAY_ON_CURSOR_BLINK );
+	  lcd16x2_Cmd( LCD_CMD_DISPLAY_ON_CURSOR_OFF );
+		//lcd16x2_Cmd( LCD_CMD_DISPLAY_ON_CURSOR_BLINK );
 
      /* The underscore at the end of printed text isn't any kind of error,
         it's just a cursor and it's possible to manipulate its state
