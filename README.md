@@ -38,9 +38,7 @@ If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to spe
 
 ![Wiring scheme](/images/WIRING.BMP)
 
-In case of different LCD module pin names:
-
-- LCD PIN Description:
+LCD module pin names:
 
 Pin number | Pin name  | Pin description
 --- | --- | ---
@@ -55,7 +53,7 @@ Pin number | Pin name  | Pin description
 16 | K/LED- | ground ping for backlight
 
 
-In case of different potentiometer type:
+Potentiometer types:
 
 ![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
 
