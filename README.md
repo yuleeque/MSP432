@@ -40,9 +40,6 @@ If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to spe
 
 In case of different LCD module pin names:
 
-<details>
-	<summary>INFO/HELP</summary>
-
 - LCD PIN Description:
 
 Pin number | Pin name  | Pin description
@@ -57,7 +54,6 @@ Pin number | Pin name  | Pin description
 15 | A/LED+ | supply voltage pin for backlight
 16 | K/LED- | ground ping for backlight
 
-</details>
 
 In case of different potentiometer type:
 
