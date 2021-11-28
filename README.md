@@ -38,7 +38,26 @@ If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to spe
 
 ![Wiring scheme](/images/WIRING.BMP)
 
-In case of different LCD module pin names, see "INFO/HELP" at the end.
+In case of different LCD module pin names:
+
+<details>
+	<summary>INFO/HELP</summary>
+
+- LCD PIN Description:
+
+Pin number | Pin name  | Pin description
+--- | --- | ---
+1 | GND/VSS | ground pin for LCD
+2 | VDD/VCC | supply voltage pin for LCD
+3 | V0/VEE | contrast adjust
+4 | RS | Register Select (0;1)
+5 | RW | Read/Write (0;1)
+6 | E | enable
+7-14 | Data Bits | send commands or data to the LCD
+15 | A/LED+ | supply voltage pin for backlight
+16 | K/LED- | ground ping for backlight
+
+</details>
 
 In case of different potentiometer type:
 
@@ -62,26 +81,3 @@ CONTRAST_DEMO
 BRIGHTNESS_DEMO
 
 ![BRIGHTNESS_DEMO](/images/BRIGHTNESS_DEMO.gif)
-
-___
-
-<details>
-	<summary>INFO/HELP</summary>
-
-- In case the lib link is broken or you cannot find it for some other reason, the whole repo "LCD16x2_MSP43x-master.zip" included "AS IS" in "/archive".
-
-- LCD PIN Description:
-
-Pin number | Pin name  | Pin description
---- | --- | ---
-1 | GND/VSS | ground pin for LCD
-2 | VDD/VCC | supply voltage pin for LCD
-3 | V0/VEE | contrast adjust
-4 | RS | Register Select (0;1)
-5 | RW | Read/Write (0;1)
-6 | E | enable
-7-14 | Data Bits | send commands or data to the LCD
-15 | A/LED+ | supply voltage pin for backlight
-16 | K/LED- | ground ping for backlight
-
-</details>
