@@ -36,7 +36,7 @@ If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to spe
 
 6. Get stuff connected
 
-![Wiring scheme](/images/WIRING.BMP)
+![Wiring scheme](/docs/images/WIRING.BMP)
 
 LCD module pin names:
 
@@ -55,9 +55,9 @@ Pin number | Pin name  | Pin description
 
 Potentiometer types:
 
-![Slide POT (potentiometer) wiring](/images/SLIDE_POTENTIOMETER.BMP)
+![Slide POT (potentiometer) wiring](/docs/images/SLIDE_POTENTIOMETER.BMP)
 
-![Single turn POT wiring](/images/SINGLE_TURN_POT.BMP)
+![Single turn POT wiring](/docs/images/SINGLE_TURN_POT.BMP)
 
 
 7. Build (F7)
@@ -69,9 +69,9 @@ ___
 
 CONTRAST_DEMO
 
-![CONTRAST_DEMO](/images/CONTRAST_DEMO.gif)
+![CONTRAST_DEMO](/docs/images/CONTRAST_DEMO.gif)
 
 
 BRIGHTNESS_DEMO
 
-![BRIGHTNESS_DEMO](/images/BRIGHTNESS_DEMO.gif)
+![BRIGHTNESS_DEMO](/docs/images/BRIGHTNESS_DEMO.gif)
