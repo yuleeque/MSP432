@@ -14,10 +14,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 ## Setup
 1. New project.
-- Select Device for Target 'Target 1': MSP432P401R
-- Manage Run-Time Environment: CMSIS -> CORE (v5.5.0)
-                               Device -> Startup (v3.2.2)
-- ыфв
+- Select Device for Target 'Target 1' -> MSP432P401R
+- Manage Run-Time Environment -> CMSIS: CORE (v5.5.0) and Device: Startup (v3.2.2)
+- Options for Target 'Target 1' -> Target -> Code Generation -> ARM Compiler -> Use default compuler version 5
+- Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Debug -> CMSIS-DAP - JTAG/SW Adapter -> Max Clock -> 1MHz
+- Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Flash Download -> add "Reset and Run"
 
 
 
