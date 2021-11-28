@@ -13,11 +13,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 
 ## Setup
-- New project -> Select Device for Target 'Target 1' -> MSP432P401R
-- Manage Run-Time Environment -> CMSIS: CORE (v5.5.0) and Device: Startup (v3.2.2)
-- Options for Target 'Target 1' -> Target -> Code Generation -> ARM Compiler -> Use default compuler version 5
-- Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Debug -> CMSIS-DAP - JTAG/SW Adapter -> Max Clock -> 1MHz
-- Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Flash Download -> add "Reset and Run"
+1. New project -> Select Device for Target 'Target 1' -> MSP432P401R
+2. Manage Run-Time Environment -> CMSIS: CORE (v5.5.0) and Device: Startup (v3.2.2)
+3. Options for Target 'Target 1' -> Target -> Code Generation -> ARM Compiler -> Use default compuler version 5
+4. Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Debug -> CMSIS-DAP - JTAG/SW Adapter -> Max Clock -> 1MHz
+5. Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Flash Download -> add "Reset and Run"
 
 
 If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to specific board:
@@ -34,7 +34,7 @@ If adding original LCD library by @agaelema, adopt the "lcd16x2_msp43x.h" to spe
 	#define     _LCD_DATA_BASE          4               // first low pin of 4 bit interface
 	#define     _LCD_4BIT_HIGH          0x0F            // 4 bits in high mode
 
-- Get stuff connected
+6. Get stuff connected
 
 ![Wiring scheme](/images/WIRING.BMP)
 
@@ -49,8 +49,8 @@ Check the documentation for your particular potentiometers to find the right con
 ![Single turn POT wiring](/images/SINGLE_TURN_POT.BMP)
 
 
-- Build (F7)
-- Download (F8)
+7. Build (F7)
+8. Download (F8)
 
 ___
 
