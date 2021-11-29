@@ -13,6 +13,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND (see LICENSE)
 
 
 ## Setup
+note: Detected in Devices as "XDS110 (03.00.00.15) Embed with CMSIS-DAP"
+
 1. New project -> Select Device for Target 'Target 1' -> MSP432P401R
 2. Manage Run-Time Environment -> CMSIS: CORE (v5.5.0) and Device: Startup (v3.2.2)
 3. Add Existing Files to Group 'Source Group 1'... (main.c, lcd16x2_msp43x.h, lcd16x2_msp43x.c)
