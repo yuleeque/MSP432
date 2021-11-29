@@ -19,7 +19,7 @@ note: Detected in Devices as "XDS110 (03.00.00.15) Embed with CMSIS-DAP"
 2. Manage Run-Time Environment -> CMSIS: CORE (v5.5.0) and Device: Startup (v3.2.2)
 3. Add Existing Files to Group 'Source Group 1'... (main.c, lcd16x2_msp43x.h, lcd16x2_msp43x.c)
 4. Options for Target 'Target 1' -> Target -> Code Generation -> ARM Compiler -> Use default compuler version 5
-5. Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Debug -> CMSIS-DAP - JTAG/SW Adapter -> XDS110 with CMSIS-DAP (note: "Any" works as well if only XDS110 is in the list), Port SW, Max Clock 1MHz
+5. Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Debug -> CMSIS-DAP - JTAG/SW Adapter -> XDS110 with CMSIS-DAP (or "Any" if XDS is the only in the list), Port SW, Max Clock 1MHz
 6. Options for Target 'Target 1' -> Debug -> CMSIS-DAP Debugger -> Settings -> Flash Download -> add "Reset and Run"
 
 
