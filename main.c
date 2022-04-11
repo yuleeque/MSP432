@@ -1,4 +1,4 @@
- #include <msp432.h>
+ //#include <msp432.h>			// seems unnecessary
  #include <stdint.h>
  #include "lcd16x2_msp43x.h"
 
